@@ -1,0 +1,51 @@
+//Snippet1: 
+hello
+Dojo
+
+//Snippet2:
+hello
+result is 15
+
+//Snippet3:
+num is 3
+result is 15
+
+//Snippet4:
+15
+10
+10
+15
+
+//Snippet5:
+15
+10
+20
+10
+15
+
+//Snippet6:
+num is 3
+6
+result is 8
+
+//snippet7:
+5
+8
+
+//Snippet8:
+2
+5
+8
+
+//Snippet9:
+sum is 5
+sum is 8
+result is 13
+
+//Snippet10:
+sum is 5
+sum is 6
+sum is 8
+result is 19
+
+

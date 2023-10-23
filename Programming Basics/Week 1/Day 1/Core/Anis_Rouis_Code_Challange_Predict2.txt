@@ -1,0 +1,13 @@
+//Snippet1:
+auntContactInfo		Paula,Smith,1234 Main Street,St. Louis,M0,12345
+
+
+//Snippet2:
+Produce 	apples,oranges
+Frozen		broccoli,ice cream->hashbrowns
+Frozen		broccoli,ice cream,hashbrowns
+
+
+//Snippet3:
+movieLibrary		Bambi,E.T,Toy Story -> Zoro
+movieLibrary		Bambi,Beetlejuice,Toy Story,Zoro

@@ -1,0 +1,69 @@
+//===Snippet1
+
+Variable	Value
+console.log	hello,Dojo
+
+
+//===Snippet2
+Variable	Value
+result		15
+
+
+//===Snippet3
+Variable	Value
+result		undefined
+num		3
+result		18
+
+
+//===Snippet4
+Variable	Value
+num		15
+num		10
+result		10
+
+
+
+//===Snippet5
+Variable	Value
+num		15
+num		10
+result		20
+
+
+//===Snippet6
+Variable    Value
+y		    6
+y		    10	
+result		16
+
+
+//===Snippet7
+Variable	Value
+num1        2->3
+num2        3->5
+
+
+//===Snippet8
+Variable	Value
+num1		2->3
+num2		3->5
+
+
+//===Snippet9
+Variable	Value
+num1		2->3
+num2		3->5
+sum		    5->8
+result		13
+
+
+//===Snippet10
+Variable	Value
+num1		2->3->3		
+num2 		3->3->5		
+sum         5->6->8
+result      19 
+
+
+
