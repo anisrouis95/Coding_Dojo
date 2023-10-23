@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="firstname">First Name:*</label><br>
+        <input type="text" id="firstname" name="firstname" required><br>
+        <label for="lastname">Last Name:*</label><br>
+        <input type="text" id="lastname" name="lastname" required><br>
+        <label for="mail">Email Address:*</label><br>
+        <input type="email" id="mail" name="mail "required><br>
+        <label for="pass">Password:*</label><br>
+        <input type="password" id="pass" name="pass" required><br>
+        <label for="Conf_password">Confirm Password:*</label><br>
+        <input type="password" id="Conf_password" name="Conf_password" required><br>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="gender">Gender Identity</label><br>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female
+        <input type="radio" id="gender" name="gender">Non-Binary
+        <input type="radio" id="gender" name="gender">I Prefer not to answer<br>
+        <label for="description">A short description about myself:</label><br>
+        <textarea name="description" id="description" cols="60" rows="10"></textarea><br>
+        <label for="language">Favorite Language:</label>
+        <select name="lang" id="language">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select><br>
+        <input type="checkbox">Yes, I would like to receive periodic email updates<br>
+        <button>Create Account</button>
+        <p>* indicates a required field</p>
+
+
+    </form>
+</body>
+</html>
