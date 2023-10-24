@@ -1,0 +1,31 @@
+*{
+    margin: 2%;
+}
+.btn {
+    border-radius: 20px;
+    border: 1px solid #00d1b2;
+    width: 160px;
+    height: 30px !important;
+    background-color: white;
+    color: #00d1b2;
+}
+
+.plus {
+    border-radius: 50%; 
+    border: 1px solid #00d1b2;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 3em;
+    color: white;
+    background-color: #00d1b2; 
+}
+
+.shadow-btn {
+    background-color: blue;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 2px 2px 0px 0px grey;
+    color: white;
+}
