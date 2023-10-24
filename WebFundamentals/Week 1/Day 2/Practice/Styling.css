@@ -1,0 +1,19 @@
+.header{
+    background-color: black;
+    color: white;
+}
+.header span{
+    color: aqua;
+}
+.middle{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.footer{
+    background-color: rgb(94, 137, 255);
+    text-align: right;
+    text-decoration: underline;
+    color: purple; 
+}
