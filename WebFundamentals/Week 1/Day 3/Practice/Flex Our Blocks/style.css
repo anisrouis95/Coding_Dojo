@@ -29,9 +29,10 @@
     height: 200px;
     width: 210px;
     background-color: yellow;
-    margin-right: 2%;
     margin-left: 5%;
+    margin-right: -2%;
     margin-top: 2%;
+
 }
 #advertisement {
     height: 120px;
