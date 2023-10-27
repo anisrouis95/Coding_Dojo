@@ -1,0 +1,31 @@
+.nav{
+    background-color: #515151;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color: rgb(23, 162, 184);
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px  black;
+    height: 30px;
+    width: 90px;
+}
