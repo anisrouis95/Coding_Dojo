@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="btn.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" placeholder="Search" class="searchbar">
+        <button class="btn" onclick="turnOff(this)">Login</button>
+    </div>
+    <div class="main">
+        <div class="leftcontainter">
+            <div class="ninja">
+                <p id="bold">ninja</p>
+                <p id="bold1">noun</p>
+                <p id="rightparagraph">A practitioner skilled in the <a href="#">Japanese</a> art <br> of <a href="#">ninjutsu</a></p>
+                <p id="plural">Plural: ninjas</p>
+                <button id="likes" onclick="showAlert()"> 13 likes</button>
+            </div>
+            <div class="ninja">
+                <p id="bold">ninja</p>
+                <p id="bold1">noun</p>
+                <p id="rightparagraph">A <a href="#">programmer</a> who breaks down problems <br> with <a href="#">zen</a>-like focus</p>
+                <p id="plural">Plural: ninjas</p>
+                <button id="likes" onclick="showAlert()"> 37 likes</button>
+            </div>
+        </div>
+        <div class="rightcontainer">
+            <div class="dojonary">
+                <p class="You">Dojonary is defined by <span>YOU</span></p>
+                <button id="dojo" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

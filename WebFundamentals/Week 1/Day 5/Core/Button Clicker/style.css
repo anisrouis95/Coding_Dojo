@@ -1,0 +1,110 @@
+body{
+    width: 1600px;
+    margin-left: 5%;
+}
+.nav {
+    background-color: #515151;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.searchbar{
+    width: 300px;
+}
+.btn {
+    color: white;
+    background-color: rgb(23, 162, 184);
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
+    height: 30px;
+    width: 90px;
+}
+/* End Navbar */
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftcontainter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 200px;
+
+}
+.ninja{
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+#bold{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 3%;
+}
+#bold1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3%;
+}
+#rightparagraph{
+    position:relative;
+    left: 30%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+#plural{
+    position: relative;
+    bottom: 7%;
+    margin-left: 3%;
+}
+#likes{
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+#likes {
+    color: black;
+    background-color: rgb(238, 235, 36);
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
+    height: 30px;
+    width: 90px;
+}
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.dojonary{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 33%;
+    right: 100%;
+    width: 200px;
+    border: 2px solid black;
+}
+#dojo{
+    color: black;
+    background-color: rgb(9, 128, 55);
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
+    height: 30px;
+    width: 150px;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+.You{
+    font-size: 25px;
+}
+.You span{
+    font-weight: bold;
+}
