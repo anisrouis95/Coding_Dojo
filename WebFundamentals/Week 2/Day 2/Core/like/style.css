@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 400px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button{
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 2px 0 0 black;
+    width: 50px;
+    height: 20px;  
+    margin-top: 4%;
+}
