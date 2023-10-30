@@ -1,0 +1,63 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+h1{
+    margin-left: 2%;
+}
+#feed{
+    display: flex;
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    font-size: 30px;
+}
+.left_container img{
+    width: 100px;
+    margin-top: 3%;
+}
+/* .left_container a{
+    font-size: 30px;
+} */
+.person{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 500px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 2px 0 0 black;
+    width: 100px;
+    height: 50px;  
+    margin-top: 4%;
+    font-size: 30px;
+}
+.bottom p{
+    margin-left: 3%;
+    font-size: 30px;
+}
