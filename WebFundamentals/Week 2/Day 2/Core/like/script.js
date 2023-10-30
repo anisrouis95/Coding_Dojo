@@ -1,4 +1,3 @@
-// Get references to the button and number elements using querySelector
 const button1 = document.querySelector('#button1');
 const numberElement = document.querySelector('#number');
 let counter = 0;
@@ -8,4 +7,4 @@ function incr() {
     numberElement.textContent = counter;
 }
 
-incrementButton.addEventListener('click', incrementNumber);
+incrementButton.addEventListener('click', button1);
