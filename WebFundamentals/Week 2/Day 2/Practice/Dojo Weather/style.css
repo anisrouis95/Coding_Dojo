@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(60, 133, 243);
+    color: white;
+    align-items: center;
+
+}
+.right > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+nav > h1 {
+    font-size: 40px;
+}
+/* End nav */
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+hr{
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+}
+/* End Loc-temp */
+
+.weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 360px;
+    align-items: center;
+    width: 61%;
+    text-align: center;
+}
+
+.container{
+    background-color: lightgrey;
+}
+.container img{
+    width: 70%;
+    border-radius: 50%;
+}
+.tempo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.tempo p:nth-child(1){
+    color: red;
+}
+.tempo p:nth-child(2){
+    color: blue;
+}
+
+#some{
+    font-size: 20px;
+}
+
+/* End Temperatures */

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Profile</h1>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+            <li><button>Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="user">
+                <div class="user-header">
+                    <img src="../Code Review/icons/jane-m.jpg" alt="">
+                </div>
+                <div class="user-body">
+                    <h1 class="m20" id="change">Jane Doe</h1>
+                    <h3 class="m20"><img src="../Code Review/icons/map-marker.png" alt="" class="icons">Seattle</h3>
+                    <p class="m20">
+                        Developer | Engineer | Problem Solver <br>
+                        Master of shadows and the Internet!
+                    </p>
+                    <a href="#" class="m20" onclick="changename()">
+                        <img src="../Code Review/icons/gear.png" alt="" class="icons"> edit profile
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Education
+                </div>
+                <div class="card-body m20">
+                    <h2>Coding Dojo Full Stack Bootcamp</h2>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Triple Black Belt in Python, C#, and MERN ...</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right">
+            <div class="card">
+                <div class="card-header">
+                    <span id="req">2</span> Connection Requests
+                </div>
+                <div class="card-body">
+                    <div class="line" id="user1">
+                        <img src="../Code Review/icons/todd-s.jpg" alt="">
+                        <span>Todd E</span>
+                        <img src="../Code Review/icons/accept-circle.png" alt="" onclick="accept('#user1')">
+                        <img src="../Code Review/icons/close-circle.png" alt="" onclick="removebtn('#user1')">
+                    </div>
+                    <div class="line" id="user2">
+                        <img src="../Code Review/icons/phil-s.jpg" alt="">
+                        <span>Phil k</span>
+                        <img src="../Code Review/icons/accept-circle.png" alt="" onclick="accept('#user2')">
+                        <img src="../Code Review/icons/close-circle.png" alt="" onclick="removebtn('#user2')">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span id="connex">418</span> Your Connections
+                </div>
+                <div class="card-body m20">
+                    
+                        <div class="line">
+                            <img src="../Code Review/icons/adrien-s.jpg" alt="">
+                            <span>Adrien D</span>
+                        </div>
+                        <div class="line">
+                            <img src="../Code Review/icons/anne-s.jpg" alt="">
+                            <span>Anne J</span>
+                        </div>
+                        <div class="line">
+                            <img src="../Code Review/icons/alayne-s.jpg" alt="">
+                            <span>Alayne T</span>
+                        </div>
+                        <div class="line">
+                            <img src="../Code Review/icons/arry-s.jpg" alt="">
+                            <span>Arry Y</span>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
