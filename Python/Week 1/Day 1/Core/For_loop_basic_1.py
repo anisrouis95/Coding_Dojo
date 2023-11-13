@@ -16,7 +16,8 @@ for i in range(0,101):
 
 sum=0
 for i in range(0,500001):
-    sum+=i
+    if (i%2!=0):
+        sum+=i
 print(sum)
 
 for i in range(2018,0,-4):
