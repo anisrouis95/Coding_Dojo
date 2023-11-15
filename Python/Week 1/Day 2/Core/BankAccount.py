@@ -40,8 +40,6 @@ class BankAccount:
         for account in cls.all_account:
             account.display_account_info()
 
-
-
 account = BankAccount(balance=500, int_rate=0.02)
 account2 = BankAccount(balance=0,int_rate=0.05)
 account.deposit(500).deposit(100).deposit(50).withdraw(1200).display_account_info()
