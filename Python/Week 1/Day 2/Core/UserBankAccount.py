@@ -56,26 +56,26 @@ class User:
         if 0 <= account_index < len(self.accounts):
             self.accounts[account_index].deposit(amount)
         else:
-            print("Try again")
+            print("Incorrect input please try again")
 
     def make_withdrawal(self, amount, account_index=0):
         if 0 <= account_index < len(self.accounts):
             self.accounts[account_index].withdraw(amount)
         else:
-            print("Try again")
+            print("Incorrect input please try again")
 
     def display_user_balance(self, account_index=0):
         if 0 <= account_index < len(self.accounts):
             print(f"User: {self.name}, Account {account_index} Balance: ${self.accounts[account_index].balance}")
         else:
-            print("Try again")
+            print("Incorrect input please try again")
 
     def transfer_money(self, amount, other_user, from_account_index=0, to_account_index=0):
         if 0 <= from_account_index < len(self.accounts) and 0 <= to_account_index < len(other_user.accounts):
             self.accounts[from_account_index].withdraw(amount)
             other_user.accounts[to_account_index].deposit(amount)
         else:
-            print("verifier your index")
+            print("verifier l'indexe du compte")
 
 
 user1 = User("Alice", "alice@email.com")
