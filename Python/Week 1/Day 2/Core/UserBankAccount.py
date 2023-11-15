@@ -1,29 +1,30 @@
 class BankAccount:
-    all_account=[]
+    all_account = []
+
     def __init__(self, int_rate, balance):
         self.int_rate = int_rate
         self.balance = balance
         BankAccount.all_account.append(self)
 
     def deposit(self, amount):
-        if amount>0:
-            self.balance+=amount
+        if amount > 0:
+            self.balance += amount
             print(f"Deposited ${amount}. New balance: ${self.balance}")
         else:
             print("Invalid deposit amount. Please deposit a positive amount.")
         return self
 
     def withdraw(self, amount):
-        if amount<=self.balance:
-            self.balance-=amount
+        if amount <= self.balance:
+            self.balance -= amount
             print(f"Withdrawn ${amount}. \nNew balance: ${self.balance}")
         else:
             print("Insufficient funds: Charging a $5 fee.")
-            self.balance-=5
+            self.balance -= 5
         return self
 
     def display_account_info(self):
-        print(f"Your balance is: {self.balance}")
+        print(f"Your balance is: ${self.balance}")
 
     def yield_interest(self):
         if self.balance > 0:
@@ -32,8 +33,8 @@ class BankAccount:
             print(f"Interest earned: ${int_earned}. \nNew balance: ${self.balance}")
         else:
             print("No interest earned. The balance is not positive.")
-
         return self
+
     @classmethod
     def print_all_accounts_info(cls):
         print("All Bank Accounts:")
@@ -42,7 +43,7 @@ class BankAccount:
 
 
 class User:
-    def init(self, name, email, accounts=None):
+    def __init__(self, name, email, accounts=None):
         self.name = name
         self.email = email
         self.accounts = accounts or []
@@ -75,11 +76,11 @@ class User:
             self.accounts[from_account_index].withdraw(amount)
             other_user.accounts[to_account_index].deposit(amount)
         else:
-            print("verifier l'indexe du compte")
+            print("Verify the account indexes")
 
 
-user1 = User("Alice", "alice@email.com")
-user2 = User("Bob", "bob@email.com")
+user1 = User("Alice", "alice@email.com", [])
+user2 = User("Bob", "bob@email.com", [])
 
 user1_account1 = user1.create_account(interest_rate=0.02, balance=500)
 user1_account2 = user1.create_account(interest_rate=0.01)
