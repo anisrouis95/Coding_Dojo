@@ -8,14 +8,14 @@ class User:
         self.gold_card_points = gold_card_points
 
     def display_info(self):
-        print("First Name:",self.first_name)
-        print("Last Name:",self.last_name)
-        print("Email:",self.email)
-        print("Age:",self.age)
-        print("Reward Member:",self.is_rewards_member)
-        print("Gold Card Points:",self.gold_card_points)
+        print("First Name:", self.first_name)
+        print("Last Name:", self.last_name)
+        print("Email:", self.email)
+        print("Age:", self.age)
+        print("Reward Member:", self.is_rewards_member)
+        print("Gold Card Points:", self.gold_card_points)
         return self
-    
+
     def enroll(self, points=200):
         if not self.is_rewards_member:
             self.is_rewards_member = True
@@ -30,4 +30,6 @@ class User:
             print("Not enough points to spend.")
 
 user1 = User("Anis", "Rouis", "anis.rouis@esprit.tn", 28)
+user2 = User('Jasser','Boulila', 'bhimlol@gmail.com',18)
 user1.display_info().enroll().spend_points(50)
+user2.display_info().enroll().spend_points(80)
