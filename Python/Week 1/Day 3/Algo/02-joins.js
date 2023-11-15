@@ -49,5 +49,5 @@ function join(arr, separator) {
 console.log(join(arr1, separator1));
 console.log(join(arr2, separator2));
 console.log(join(arr3, separator3));
-console.log(join(arr4, separator4));    
+console.log(join(arr4, separator4));
 console.log(join(arr5, separator5));
