@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo survey</title>
+</head>
+<body>
+    <h1>Dojo Survey</h1>
+    <form action="/result" method="post">
+        <p>
+            Name:
+        </p>
+        <input type="text" name="name">
+        <p>
+            Location:
+        </p><select name="option">
+            <option value="Tunis">
+                Tunis
+            </option>
+            <option value="Ben Arous">
+                Ben Arous
+            </option>
+            <option value="Ariana">
+                Ariana
+            </option>
+            <option value="Sousse">
+                Sousse
+            </option>
+        </select>
+        <p>
+            Favorite Language:
+        </p>
+        <select name="language" id="">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+        <p>
+            comment(optional):
+        </p>
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        <button  type="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
