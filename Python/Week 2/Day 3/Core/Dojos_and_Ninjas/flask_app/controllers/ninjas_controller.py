@@ -10,11 +10,11 @@ def ninjas():
 
 @app.route('/create/ninja', methods=['POST'])
 def create_ninja():
-    data2 = {
+    data = {
         "first_name": request.form['fname'],
         "last_name": request.form['lname'],
         "age": request.form['age'],
         "dojo_id": request.form.get('dojo_id')  # Add the selected dojo ID to the data
     }
-    Ninjas.saveninja(data2)
+    Ninjas.save(data)
     return redirect('/dojo')
