@@ -11,7 +11,6 @@ class User:
         self.last_name = data_dict['last_name']
         self.email = data_dict['email']
         self.password = data_dict['password']
-        # self.confirm_password = data_dict['confirm_password']
         self.created_at = data_dict['created_at']
         self.updated_at = data_dict['updated_at']
 
