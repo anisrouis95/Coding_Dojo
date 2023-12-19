@@ -10,8 +10,8 @@
 function bubbleSort(nums) {
     const n = nums.length;
 
-    for (let i = 0; i < n - 1; i++) {
-        for (let j = 0; j < n - 1 - i; j++) {
+    for (var i = 0; i < n - 1; i++) {
+        for (var j = 0; j < n - 1 - i; j++) {
             if (nums[j] > nums[j + 1]) {
                 const temp = nums[j];
                 nums[j] = nums[j + 1];
