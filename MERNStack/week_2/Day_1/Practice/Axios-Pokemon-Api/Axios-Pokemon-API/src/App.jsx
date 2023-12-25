@@ -1,14 +1,15 @@
 import './App.css';
 import React, { useState } from 'react';
+import axios from 'axios';
 
 function App() {
   const [pokemonList, setPokemonList] = useState([]);
   const [nextPage, setNextPage] = useState("https://pokeapi.co/api/v2/pokemon/");
 
   const fetchPokemon = () => {
-    fetch(nextPage)
-      .then((response) => response.json())
-      .then((data) => {
+    axios.get(nextPage)
+      .then((response) => {
+        const { data } = response;
         setNextPage(data.next);
         setPokemonList((prevList) => [...prevList, ...data.results]);
       })
@@ -29,9 +30,9 @@ function App() {
         </thead>
         <tbody>
           {pokemonList.map((onePokemon) => (
-            <ul key={onePokemon.name}>
-              <li>{onePokemon.name}</li>
-            </ul>
+            <tr key={onePokemon.name}>
+              <td>{onePokemon.name}</td>
+            </tr>
           ))}
         </tbody>
       </table>
@@ -40,4 +41,3 @@ function App() {
 }
 
 export default App;
-
