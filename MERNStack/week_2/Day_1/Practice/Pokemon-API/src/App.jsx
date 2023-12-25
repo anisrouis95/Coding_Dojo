@@ -29,9 +29,9 @@ function App() {
         </thead>
         <tbody>
           {pokemonList.map((onePokemon) => (
-            <tr key={onePokemon.name}>
-              <td>{onePokemon.name}</td>
-            </tr>
+            <ul key={onePokemon.name}>
+              <li>{onePokemon.name}</li>
+            </ul>
           ))}
         </tbody>
       </table>
