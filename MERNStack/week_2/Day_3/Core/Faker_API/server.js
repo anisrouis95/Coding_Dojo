@@ -17,7 +17,6 @@ function createUser() {
 }
 
 
-// Function to create a new company with fake data using faker
 function createCompany() {
     return {
         _id: chance.guid(),
@@ -62,7 +61,7 @@ app.listen(port, () => {
 // const faker = require('faker');
 
 // const app = express();
-// const port = 3000;
+// const port = 8000;
 
 // // Function to create a new user with fake data using faker
 // function createNewUser() {
