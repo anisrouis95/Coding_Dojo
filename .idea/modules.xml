@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Coding_Dojo.iml" filepath="$PROJECT_DIR$/.idea/Coding_Dojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Week_1/Day_1/Core/Core.iml" filepath="$PROJECT_DIR$/Java/Week_1/Day_1/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Week_1/Day_1/Day_1.iml" filepath="$PROJECT_DIR$/Java/Week_1/Day_1/Day_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Week_1/Day_1/Practice/Practice.iml" filepath="$PROJECT_DIR$/Java/Week_1/Day_1/Practice/Practice.iml" />
+    </modules>
+  </component>
+</project>
