@@ -19,7 +19,6 @@
         <p>Description: ${book.description}</p>
         <p>Language: ${book.language}</p>
         <p>Number of Pages: ${book.numberOfPages}</p>
-        <p>AAAA</p>
 
 </body>
 </html>
