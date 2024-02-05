@@ -8,12 +8,12 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gold.bookapi</groupId>
-	<artifactId>BookAPI</artifactId>
+	<groupId>com.travels.savetravels</groupId>
+	<artifactId>SaveTravels</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>BookAPI</name>
-	<description>BookAPI</description>
+	<name>SaveTravels</name>
+	<description>SaveTravels</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

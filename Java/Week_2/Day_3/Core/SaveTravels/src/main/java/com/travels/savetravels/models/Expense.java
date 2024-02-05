@@ -20,7 +20,7 @@ public class Expense {
     @NotBlank(message = "Vendor is required")
     private String vendor;
 
-    @NotNull(message = "Amount is required")
+//    @NotNull(message = "Amount is required")
     @Positive(message = "Amount must be a positive value")
     private Double amount;
     private String description;
@@ -49,8 +49,8 @@ public class Expense {
         this.vendor = vendor;
     }
 
-    public double getAmount() {
-        return amount;
+    public Double getAmount() {
+        return this.amount;
     }
 
     public void setAmount(double amount) {
